@@ -2,8 +2,17 @@ body{
   margin: 50px;
 }
 
-button{
+.btn, .btn:visited, .btn:hover{
   margin:5px;
+  border-style: outset;
+  background-color: lightgray;
+  color: black;
+}
+.btn:active{
+  margin:5px;
+  border-style: inset;
+  background-color: lightgray;
+  color: black;
 }
 
 #calculator{
@@ -13,8 +22,8 @@ button{
 }
 
 #window{
-  border: 3px solid black;
+  border-style: inset;
   text-align: right;
-  background-color: green;
+  background-color: lightgreen;
   height: 25px;
 }

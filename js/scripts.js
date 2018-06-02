@@ -11,6 +11,7 @@ var divide = "/";
   	calc= calc + idVar;
     $("#window").text(calc);
   });
+	
 	$("button.opperator").click(function(){
 		var idVar= $(this).attr("id");
 		calc= calc + eval(idVar);
